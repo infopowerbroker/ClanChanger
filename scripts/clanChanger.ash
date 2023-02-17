@@ -1,7 +1,6 @@
 //Clan Changer
 
-//$CUSTOM|Combo|Change Clans|_clanChanges|999|$ITEM|Old CW's Germfree Clan|false|clanChanger.ash OldCW||$ITEM|Big Timers|false|clanChanger.ash BigTimers||$ITEM|Noob Runners|false|clanChanger.ash NoobRunner||$ITEM|Kami's Kompadres|false|clanChanger.ash Kompadres||$ITEM|The Kuilebarrow|false|clanChanger.ash Kuilebarrow|
-
+//$CUSTOM|Combo|Change Clans|_clanChanges|10|$ITEM|OldCWs|false|clanChanger.ash OldCW|$ITEM|Big Timers|false|clanChanger.ash BigTimers|$ITEM|Noob Runners|false|clanChanger.ash NoobRunner|$ITEM|KamisKompadres|false|clanChanger.ash Kompadres|$ITEM|Kuilebarrow|false|clanChanger.ash Kuilebarrow|$ITEM|Karma Chameleon|false|clanChanger.ash KarmaChameleon
 
 void main (string targetClan){
 
@@ -63,6 +62,18 @@ buffer apply = visit_url( "showclan.php?recruiter=1&whichclan=2047009795&action=
 	}
 	else{
 		print( "Could not join The Kuilebarrow! You may already be a member of this clan." , "red" );
+		
+	}
+}
+//Karma Chameleon 
+if(targetClan == "KarmaChameleon"){
+buffer apply = visit_url( "showclan.php?recruiter=1&whichclan=2047004343&action=joinclan&apply=Apply+to+this+Clan&confirm=on&pwd" );
+	if( contains_text( apply , "Recent Announcements" ) ){
+		print( "Successfully joined The Karma Chameleon on a whitelist!" , "green" );
+		
+	}
+	else{
+		print( "Could not join The Karma Chameleon! You may already be a member of this clan." , "red" );
 		
 	}
 }
