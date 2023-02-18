@@ -20,3 +20,7 @@ $CUSTOM|Combo|Change Clans|_clanChanges|10|$ITEM|OldCWs|false|clanChanger.ash Ol
 </pre>
 
 More information about custom daily deeds can be found on the Wiki: https://wiki.kolmafia.us/index.php/Daily_Deeds#Combo
+
+To add the daily deed, close down mafia and edit the file GLOBAL_prefs.txt in settings/
+Make a backup copy first. Also make sure your editor isn't set to word wrap (not clear on how that works).
+Find the line that starts with dailyDeedsOptions= and add a comma and the custom deed you want to the end of the line. You can reorder the lines easily in mafia, once you restart it. 
