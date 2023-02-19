@@ -7,13 +7,14 @@ This script will send an HTML message simulating the mouseclicks to join a clan.
 
 What clans are currently supported?
 ----------------
+```
 Old CW's Germ Free Clan
 Big Timers
 Noob Runners
 Kami's Kompadres
 The Kuilebarrow 
 Karma Chameleon
-
+```
 How do I use it?
 ----------------
 First, install it by running this command in KoLmafia's graphical CLI:
