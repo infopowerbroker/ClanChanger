@@ -19,9 +19,9 @@ How do I use it?
 ----------------
 First, install it by running this command in KoLmafia's graphical CLI:
 
-<pre>
+```
 git checkout https://github.com/infopowerbroker/ClanChanger.git release
-</pre>
+```
 
  
 Add the following as a custom daily deed:
