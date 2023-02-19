@@ -5,6 +5,15 @@ What does it do?
 ----------------
 This script will send an HTML message simulating the mouseclicks to join a clan. This Uses a hardcoded list that I need, you need to be added to the whitelist to join each clan. You will want to edit the file to join clans of your choice.
 
+What clans are currently supported?
+----------------
+Old CW's Germ Free Clan
+Big Timers
+Noob Runners
+Kami's Kompadres
+The Kuilebarrow 
+Karma Chameleon
+
 How do I use it?
 ----------------
 First, install it by running this command in KoLmafia's graphical CLI:
