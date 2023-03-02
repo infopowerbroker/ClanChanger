@@ -1,6 +1,6 @@
 //Clan Changer
 
-//$CUSTOM|Combo|Change Clans|_clanChanges|10|$ITEM|OldCWs|false|clanChanger.ash OldCW|$ITEM|Big Timers|false|clanChanger.ash BigTimers|$ITEM|Noob Runners|false|clanChanger.ash NoobRunner|$ITEM|KamisKompadres|false|clanChanger.ash Kompadres|$ITEM|Kuilebarrow|false|clanChanger.ash Kuilebarrow|$ITEM|Karma Chameleon|false|clanChanger.ash KarmaChameleon
+//$CUSTOM|Combo|Change Clans|_clanChanges|10|$ITEM|OldCWs|false|clanChanger.ash OldCW|$ITEM|Big Timers|false|clanChanger.ash BigTimers|$ITEM|Noob Runners|false|clanChanger.ash NoobRunner|$ITEM|KamisKompadres|false|clanChanger.ash Kompadres|$ITEM|Kuilebarrow|false|clanChanger.ash Kuilebarrow|$ITEM|Karma Chameleon|false|clanChanger.ash KarmaChameleon|$ITEM|Chalmuns Cantina|false|clanChanger.ash Cantina
 
 int TargetClanIndex(string target)
 {
@@ -12,6 +12,7 @@ int TargetClanIndex(string target)
 	case "Kompadres":		return 3;
 	case "Kuilebarrow":		return 4;
 	case "KarmaChameleon":	return 5;
+	case "Cantina":			return 6;
 		}
 	return -1;
 }
@@ -102,6 +103,20 @@ buffer apply = visit_url( "showclan.php?recruiter=1&whichclan=2047004343&action=
 		
 	}
 }
+// The Chalmun's Cantina
+//ChangeNumber
+if(ClanNumber==6){
+buffer apply = visit_url( "showclan.php?recruiter=1&whichclan=2047007221&action=joinclan&apply=Apply+to+this+Clan&confirm=on&pwd" );
+	if( contains_text( apply , "Cantina" ) ){
+		print( "Successfully joined The Chalmun's Cantina on a whitelist!" , "green" );
+		
+	}
+	else{
+		print( "Could not join The Chalmun's Cantina! You may already be a member of this clan." , "red" );
+		print(apply);
+		
+	}
+}
 //Change to a Switch Statement
 if(ClanNumber==-1){
 	print( "Unconfigured clan" , "red" );
@@ -112,6 +127,8 @@ if(ClanNumber==-1){
 	print( "Kompadres" , "white" );
 	print( "Kuilebarrow" , "white" );
 	print( "KarmaChameleon" , "white" );
+	print( "Cantina" , "white" );
+	
 }
 
 }
