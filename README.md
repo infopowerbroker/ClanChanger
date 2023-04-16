@@ -15,6 +15,14 @@ Kami's Kompadres
 The Kuilebarrow 
 Karma Chameleon
 Chalmun's Cantina
+ The Great Tortoise Library 
+ Quelzie's Super Secret Society Stash Space
+ Kulth's Side-Piece 
+ Eden 
+ Cavaliers of the King
+ Umlaut Nation  
+ Cyber-Toothed Clan 
+ Invisiclan 
 ```
 How do I use it?
 ----------------
@@ -27,7 +35,7 @@ git checkout https://github.com/infopowerbroker/ClanChanger.git release
  
 Add the following as a custom daily deed:
 ```
-$CUSTOM|Combo|Change Clans|_clanChanges|10|$ITEM|OldCWs|false|clanChanger.ash OldCW|$ITEM|Big Timers|false|clanChanger.ash BigTimers|$ITEM|Noob Runners|false|clanChanger.ash NoobRunner|$ITEM|KamisKompadres|false|clanChanger.ash Kompadres|$ITEM|Kuilebarrow|false|clanChanger.ash Kuilebarrow|$ITEM|Karma Chameleon|false|clanChanger.ash KarmaChameleon|$ITEM|Chalmuns Cantina|false|clanChanger.ash Cantina
+$CUSTOM|Combo|Change Clans|_clanChanges|10|$ITEM|OldCWs|false|clanChanger.ash OldCW|$ITEM|Big Timers|false|clanChanger.ash BigTimers|$ITEM|Noob Runners|false|clanChanger.ash NoobRunner|$ITEM|KamisKompadres|false|clanChanger.ash Kompadres|$ITEM|Kuilebarrow|false|clanChanger.ash Kuilebarrow|$ITEM|Karma Chameleon|false|clanChanger.ash KarmaChameleon|$ITEM|Chalmuns Cantina|false|clanChanger.ash Cantina|$ITEM|Great Tortoise Library|false|clanChanger.ash Tortoise|$ITEM|Crimboner Town|false|clanChanger.ash Crimboner|$ITEM|Quelzies Stash|false|clanChanger.ash SecretStash|$ITEM|Kulths Side-Piece|false|clanChanger.ash Side-Piece|$ITEM|Eden|false|clanChanger.ash Eden|$ITEM|Cavaliers of the King|false|clanChanger.ash Cavaliers|$ITEM|Umlaut Nation|false|clanChanger.ash Umlaut|$ITEM|Cyber-Toothed Clan|false|clanChanger.ash CyberTooth|$ITEM|Invisiclan|false|clanChanger.ash Invisiclan
 ```
 
 More information about custom daily deeds can be found on the Wiki: https://wiki.kolmafia.us/index.php/Daily_Deeds#Combo
